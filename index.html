@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Lekcji</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body onload="init()">
+    <div class="menu">
+        <img class="logo" src="img/logo.png">
+        <span>Plan Lekcji</span>
+        <select id="dzienTygodnia" class="dzienTygodznia">
+            <option>
+                Poniedziałek
+            </option>
+            <option>
+                Wtorek
+            </option>
+            <option>
+                Środa
+            </option>
+            <option>
+                Czwartek
+            </option>
+            <option>
+                Piątek
+            </option>
+        </select>
+    </div>
+    <div class="conteiner">
+        <div class="col">
+            <h2>Plan lekcji</h2>
+            <ol id="lessLabel">
+                <li>
+                    <p>
+                        test
+                    </p>
+                </li>
+            </ol>
+        </div>
+        <div class="col">
+            <h2>Informacje o lekcji</h2>
+            <p>Prowadzący: <span id="prowadzacy">XYZ</span></p>
+            <p>Przedział godzinowy: <span id="od">XYZ</span>:<span id="do">XYZ</span></p>
+            <p>Aktualny Czas: <span id="czas">XYZ</span></p>
+        </div>
+    </div>
+</body>
+
+</html>

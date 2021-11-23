@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(63, 18, 94);
+}
+
+.menu {
+    background-color: rgb(133, 33, 201);
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+    height: 50px;
+}
+
+.dzienTygodznia {
+    border: none;
+    float: right;
+    width: 175px;
+    margin-top: 8px;
+    height: 30px;
+    background-color: rgb(133, 33, 201);
+    color: white;
+    font-size: 20px;
+}
+
+.conteiner {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.col {
+    float: center;
+    background-color: rgb(133, 33, 201);
+    margin: 10px;
+    padding: 15px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.col h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.col p {
+    font-size: 20px;
+    margin: 2px;
+}
